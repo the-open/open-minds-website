@@ -3,7 +3,7 @@
     <a class="sr-only" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
     <a class="logo" href="http://localhost/">
       <img src="/wp-content/themes/openminds/dist/images/open-brand.png">
-      <span>Minds&nbsp;e.V.</span>
+      <span>minds&nbsp;e.V.</span>
     </a>
 
     <nav class="nav-primary">
