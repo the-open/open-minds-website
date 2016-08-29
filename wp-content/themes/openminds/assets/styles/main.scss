@@ -41,6 +41,12 @@ a.logo {
     text-decoration: none;
   }
 }
+h1, h2, h3, h4, h5, h6 {
+  &:first-child { margin-top: 0; }
+}
+#menu-menu-1 {
+  @extend .nav-pills;
+}
 @media (min-width: 768px) {
   .container {
     max-width: 680px;
